@@ -87,13 +87,13 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                    <annotationProcessors>
-                        <annotationProcessor>
-                            BuilderProcessor
-                        </annotationProcessor>
-                    </annotationProcessors>
+                    <source>1.8</source>
+                    <target>1.8</target>
+<!--                    <annotationProcessors>-->
+<!--                        <annotationProcessor>-->
+<!--                            BuilderProcessor-->
+<!--                        </annotationProcessor>-->
+<!--                    </annotationProcessors>-->
 
                 </configuration>
             </plugin>
